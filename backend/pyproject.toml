@@ -1,0 +1,16 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Backend API layer for Leeds Community Mapping"
+readme = "README.md"
+authors = [
+    { name = "Bevan Swanson", email = "bev@rivling.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.135.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.2,<0.12.0"]
+build-backend = "uv_build"
