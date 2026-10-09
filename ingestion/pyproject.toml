@@ -7,6 +7,7 @@ dependencies = [
     "geoalchemy2>=0.20.0",
     "geopandas>=1.2.0",
     "psycopg[binary]>=3.3.6",
+    "requests>=2.34.2",
     "sqlalchemy>=2.1.4",
 ]
 
@@ -14,5 +15,6 @@ dependencies = [
 dev = [
     "ipykernel>=7.4.0",
     "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
     "nbstripout>=0.9.1",
 ]
