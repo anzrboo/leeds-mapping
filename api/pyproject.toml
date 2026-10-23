@@ -1,0 +1,15 @@
+[project]
+name = "api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.161.1",
+]
+
+[project.scripts]
+api = "main:dev"
+
+[tool.uv]
+package = true

@@ -1,7 +1,0 @@
-{
-  "folders": [
-    { "path": ".", "name": "leeds-mapping (root)" },
-    { "path": "ingestion" },
-    { "path": "api" }
-  ]
-}
